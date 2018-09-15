@@ -1,0 +1,70 @@
+.body{
+    background-color: aquamarine;
+}
+.main-navbar{
+    display: flex;
+}
+.main-nav-menu{
+    display: flex;
+    flex: 1;
+    align-self: center;
+    float: right;
+}
+.main-nav-logo {
+    display: flex;
+    flex: 1;
+}
+.logo-header {
+    height: 60px;
+}
+img {
+    height: inherit;
+}
+.nav-menu-ul{
+    display: flex;
+    flex: 1;
+    float: right;
+    margin-bottom: 0;
+}
+li {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border-radius: 7px;
+}
+li:hover {
+    background-color: lightcyan;
+}
+.main-artical{
+    height: 700px;
+    background-image: url("../image/body-image.jpg");
+    background-size: contain;
+    display: flex;
+}
+.main-artical-left {
+    display: flex;
+    flex: 1;
+}
+.main-artical-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
+form.form {
+    background-color: rgb(81, 170, 221);
+    padding: 22px;
+    border-style: groove;
+    border-radius: 30px;
+}
+input.submit-form {
+    margin: 10% 30% 0%;
+    border-radius: 8px;
+}
+input.submit-form:hover {
+    background-color: transparent;
+}
+.footer{
+    height: 150px;
+    background-color: darkgoldenrod;
+}
